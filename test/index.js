@@ -7,7 +7,6 @@ describe('node version', function () {
     expect(process.versions.node).to.exist
     done()
   })
-
 })
 
 describe('npm version', function () {
